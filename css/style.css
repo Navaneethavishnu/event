@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Anton|Monoton|Muli:400,400i,500,500i,600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Anton|Monoton|Muli:400,400i,500,500i,600&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Faster+One&display=swap');
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_extend.scss */
 .flex-center-start {
   display: -webkit-box;
@@ -1589,7 +1590,7 @@ h3 {
 
 /* line 65, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
-  font-family: "Monoton", cursive;
+  font-family: 'Faster One', cursive;
   font-size: 122px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1597,6 +1598,11 @@ h3 {
   line-height: 1;
   margin-top: 55px;
   margin-bottom: 40px;
+  word-spacing: 10px;
+}
+.slider_area .single_slider .slider_text h3 strong {
+  font-family: 'Faster One', cursive;
+  font-size: 190px;
 }
 
 @media (max-width: 767px) {
@@ -1606,12 +1612,21 @@ h3 {
     line-height: 1.2;
     margin: 20px 0;
   }
+  .slider_area .single_slider .slider_text h3 strong {
+    font-family: 'Faster One', cursive;
+    font-size: 50px;
+  }
 }
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 65, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
     font-size: 54px;
+  }
+  .slider_area .single_slider .slider_text h3 strong {
+    font-family: 'Faster One', cursive;
+    font-size: 70px;
   }
 }
 
@@ -2142,7 +2157,7 @@ h3 {
   line-height: 1;
   margin-top: 5px;
   margin-bottom: 23px;
-  font-family: "Monoton", cursive;
+  font-family: 'Faster One', cursive;
   position: relative;
   z-index: 9;
 }
@@ -2181,7 +2196,7 @@ h3 {
   color: #FFF;
   margin-bottom: 34px;
   margin-top: 10px;
-  font-family: "Monoton", cursive;
+  font-family: 'Faster One', cursive;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
